@@ -109,7 +109,7 @@ if menu == "Home":
 else:
     st.title("Streamlit的動態視覺圖")
     st.subheader("用streamlit呈現plotly")
-    df = pd.read_csv("data/sales_data_sample.csv")
+    df = pd.read_csv("sales_data_sample.csv")
     df = df.iloc[0:10, ::]
     st.dataframe(df)
     
